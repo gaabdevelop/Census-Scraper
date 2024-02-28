@@ -1,15 +1,15 @@
 # Web Scraping com Node.js e Cheerio
 
-Este projeto realiza web scraping na página https://www.ibge.gov.br/cidades-e-estados/rs/alpestre.html para extrair informações sobre a cidade de Alpestre, RS.
+Este repositório contém um script simples em Node.js usando Axios e Cheerio para realizar web scraping na página do IBGE sobre a cidade de Alpestre, RS ( Estou inplementando a funcionalidade que permite aos usuários escolher a cidade na qual desejam realizar a coleta de dados. ). As informações extraídas incluem dados como o prefeito, área territorial, população residente, densidade demográfica, escolarização, IDHM, mortalidade infantil, receitas realizadas, despesas empenhadas e PIB per capita. O script é projetado para fornecer uma introdução prática ao web scraping em páginas específicas do governo.
 
 ## Instalação
 
 1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
 
-2. Navegue até o diretório do projeto:
+2.  Inicialize um projeto Node.js:
 
     ```bash
-    cd seu-diretorio
+    npm init -y
     ```
 
 3. Instale as dependências do projeto usando npm:
@@ -26,6 +26,12 @@ Este projeto realiza web scraping na página https://www.ibge.gov.br/cidades-e-e
         npm install cheerio
         ```
 
+     - Ou você pode fazer a intalção de ambos:
+
+        ```bash
+        npm install cheerio axios
+        ```
+
 4. Após a instalação, você pode executar o script principal:
 
     ```bash
@@ -40,4 +46,4 @@ Sinta-se à vontade para contribuir com melhorias ou correções neste projeto. 
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Se chegou até aqui, agradeço pelo apoio à minha evolução.
