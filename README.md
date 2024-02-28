@@ -44,6 +44,6 @@ Este repositório contém um script simples em Node.js usando Axios e Cheerio pa
 
 Sinta-se à vontade para contribuir com melhorias ou correções neste projeto. Abra uma issue para discutir mudanças propostas ou envie uma pull request.
 
-## Licença
+## Agradecimento
 
 Se chegou até aqui, agradeço pelo apoio à minha evolução.
