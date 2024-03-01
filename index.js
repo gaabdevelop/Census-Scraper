@@ -12,8 +12,8 @@ const main = async () => {
     let info = [];
 
     $('.resultados-padrao > li').each((index, element) => {
-        const areaTerritorial = $(element).text();
-        info.push([areaTerritorial]);
+        const dados = $(element).text();
+        info.push([dados]);
     });
 
     console.log(info);
