@@ -23,8 +23,8 @@ const main = async () => {
     // Para cada elemento dentro do seletor '.resultados-padrao > li' (lista de resultados na página)
     $('.resultados-padrao > li').each((index, element) => {
         // Obtém o texto do elemento atual e adiciona ao array 'info' como um array
-        const areaTerritorial = $(element).text();
-        info.push([areaTerritorial]);
+        const dadods = $(element).text();
+        info.push([dadods]);
     });
 
     // Imprime o array 'info', que agora contém as informações extraídas
